@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var conta = parseInt(prompt("Escolha uma operação. Digite: 1 para Adição, 2 para Subtração, 3 para Divisão, 4 para Multiplicação."))
+        var valor1 = parseInt(prompt("Digite um número que seja inteiro"));
+        var valor2 = parseInt(prompt("Digite um número que seja inteiro"));
+        
+
+        if(conta < 1 && conta > 4){
+            alert("Digte um número de entre 1 e 4")
+        }
+
+        var soma = valor1 + valor2;
+        if(conta == 1){
+            alert(valor1 + " + " + valor2 + " = " + soma);
+        }
+
+        var sub = valor1 - valor2;
+        if(conta == 2){
+            alert(valor1 + " - " + valor2 + " = " + sub);
+        }
+
+        var div = valor1 / valor2;
+        if(conta == 3){
+            alert(valor1 + " / " + valor2 + " = " + div);
+        }
+
+        var multi = valor1 * valor2;
+        if(conta == 4){
+            alert(valor1 + " x " + valor2 + " = " + multi);
+        }
+
+    </script>
+</body>
+</html>

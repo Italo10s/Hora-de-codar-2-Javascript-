@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        alert('Olá, você precisa digitar quatro números, para que possamos calcular a sua média. :)  ')
+        var num1 = parseInt(prompt('Digite o primeiro número: '))
+        var num2 = parseInt(prompt('Digite o segundo número: '))
+        var num3 = parseInt(prompt('Digite o terceiro número: '))
+        var num4 = parseInt(prompt('Digite o quarto número: '))
+        var media = 0
+
+        if(num1 > 0 && num1 < 10){
+            media += num1
+        }
+        if (num2 > 0 && num2 < 10){
+            media += num2
+        }
+        if (num3 > 0 && 10 < num3){
+            media += num3
+        }
+        if (num4 > 0 && 10 < num4){
+            media += num4
+        }
+        
+        if (media > 5){
+            alert('Parabéns, você passou no teste! Uhu')
+        }
+        else{
+            alert("Tente novamente.")
+        }
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+    
+</body>
+</html>
